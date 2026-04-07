@@ -1,0 +1,56 @@
+/* Estilos básicos para que la app se vea ordenada */
+.app {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+/* Navbar con fondo negro para que resalte */
+.navbar {
+  background-color: #333;
+  color: white;
+  padding: 10px;
+  text-align: center;
+}
+
+.navbar ul {
+  list-style: none;
+  padding: 0;
+}
+
+.navbar li {
+  display: inline;
+  margin: 0 10px;
+}
+
+.navbar a {
+  color: white;
+  text-decoration: none;
+}
+
+/* Sección principal centrada y con fondo gris para destacar */
+.main-section {
+  padding: 20px;
+  text-align: center;
+  background-color: #f0f0f0;
+}
+
+/* Segunda sección con padding para separar contenido */
+.second-section {
+  padding: 20px;
+  background-color: #e0e0e0;
+}
+
+/* Aside para enlaces, con fondo más oscuro para diferenciar */
+.aside {
+  padding: 20px;
+  background-color: #d0d0d0;
+}
+
+/* Footer negro al final, simple y directo */
+.footer {
+  background-color: #333;
+  color: white;
+  text-align: center;
+  padding: 10px;
+}
