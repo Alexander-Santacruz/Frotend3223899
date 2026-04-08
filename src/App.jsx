@@ -21,6 +21,7 @@ const MainSection = () => {
     <main className="main-section">
       <h1>Bienvenido</h1>
       <p>Esta es la página principal.</p>
+      <button>Botón Básico</button>
     </main>
   );
 };
@@ -45,7 +46,7 @@ const Aside = () => {
     <aside className="aside">
       <h3>Enlaces</h3>
       <p><a href="#link1">Enlace 1</a></p>
-      <p><a href="#link2">Enlace 2</a></p>
+      <p><a href="https://github.com/Alexander-Santacruz/Frotend3223899.git">Mi repositorio</a></p>
     </aside>
   );
 };
@@ -66,7 +67,6 @@ const App = () => {
       <Navbar />
       <MainSection />
       <SecondSection />
-      <Aside />
       <Footer />
     </div>
   );

@@ -3,14 +3,18 @@
   font-family: Arial, sans-serif;
   margin: 0;
   padding: 0;
+  background-color: #000; /* Fondo negro */
+  color: #00aaff; /* Azul cool discreto para texto */
+  min-height: 100vh;
 }
 
 /* Navbar con fondo negro para que resalte */
 .navbar {
-  background-color: #333;
-  color: white;
+  background-color: #111; /* Negro más oscuro */
+  color: #00aaff; /* Azul cool */
   padding: 10px;
   text-align: center;
+  border-bottom: 2px solid #00aaff; /* Borde azul cool */
 }
 
 .navbar ul {
@@ -24,33 +28,63 @@
 }
 
 .navbar a {
-  color: white;
+  color: #00aaff; /* Azul cool */
   text-decoration: none;
+  transition: all 0.3s ease;
 }
 
-/* Sección principal centrada y con fondo gris para destacar */
+.navbar a:hover {
+  color: #0088cc; /* Azul más oscuro al hover */
+  transform: scale(1.1);
+  text-shadow: 0 0 10px #00aaff;
+}
+
+/* Sección principal centrada y con fondo negro */
 .main-section {
   padding: 20px;
   text-align: center;
-  background-color: #f0f0f0;
+  background-color: #000;
+  color: #00aaff;
+}
+
+.main-section button {
+  padding: 10px 20px;
+  background-color: #00ff00;
+  color: #000;
+  border: none;
+  cursor: pointer;
+  margin-top: 10px;
+  transition: all 0.3s ease;
+}
+
+.main-section button:hover {
+  background-color: #0088cc;
+  transform: scale(1.05);
+  box-shadow: 0 0 15px #00aaff;
 }
 
 /* Segunda sección con padding para separar contenido */
 .second-section {
   padding: 20px;
-  background-color: #e0e0e0;
+  background-color: #111; /* Negro más oscuro */
+  color: #00aaff;
+  border-top: 1px solid #00aaff;
 }
 
-/* Aside para enlaces, con fondo más oscuro para diferenciar */
-.aside {
-  padding: 20px;
-  background-color: #d0d0d0;
+.second-section li {
+  transition: all 0.3s ease;
+}
+
+.second-section li:hover {
+  color: #0088cc;
+  transform: translateX(10px);
 }
 
 /* Footer negro al final, simple y directo */
 .footer {
-  background-color: #333;
-  color: white;
+  background-color: #111;
+  color: #00aaff;
   text-align: center;
   padding: 10px;
+  border-top: 2px solid #00aaff;
 }
